@@ -1,0 +1,85 @@
+/* FILE : cutewr_dp.bmm
+*  Define a BRAM map for the LM32 memory "xwb_dpram".
+*  Run ISE Translate -> "Floorplan Area/IO/Logic (PlanAhead)" once (without this BMM file
+*  attached to the ISE Project) to find out that there are 46 ramloops and each RAMB16
+*  Note: *THE RAMLOOP ORDER WITHIN A BUS_BLOCK IS VERY IMPORTANT!!!*
+*        Define ramloop 45 downto 0 and databits 31 downto 0 !!! Otherwise the memory
+*        content will be swapped and the program fails to execute. Aperently the ramloop
+*        number and bit definitions are not read by data2mem.
+*
+*
+* Address space LM32 memory "xwb_dpram"
+* g_dpram_size = 131072/4
+* 64 stacks of size 2048 bytes is 131072 bytes
+*
+****************************************************************************************/
+ADDRESS_SPACE lm32_wrpc_memory RAMB16 [0x00000000:0x0001FFFF]
+    BUS_BLOCK
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram315 [31:31];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram313 [30:30];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram311 [29:29];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram39 [28:28];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram37 [27:27];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram35 [26:26];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram33 [25:25];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram31 [24:24];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram215 [23:23];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram213 [22:22];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram211 [21:21];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram29 [20:20];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram27 [19:19];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram25 [18:18];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram23 [17:17];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram21 [16:16];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram115 [15:15];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram113 [14:14];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram111 [13:13];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram19 [12:12];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram17 [11:11];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram15 [10:10];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram13 [9:9];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram11 [8:8];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram015 [7:7];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram013 [6:6];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram011 [5:5];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram09 [4:4];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram07 [3:3];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram05 [2:2];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram03 [1:1];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram01 [0:0];
+    END_BUS_BLOCK;
+    BUS_BLOCK
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram316 [31:31];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram314 [30:30];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram312 [29:29];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram310 [28:28];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram38 [27:27];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram36 [26:26];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram34 [25:25];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram32 [24:24];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram216 [23:23];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram214 [22:22];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram212 [21:21];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram210 [20:20];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram28 [19:19];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram26 [18:18];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram24 [17:17];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram22 [16:16];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram116 [15:15];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram114 [14:14];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram112 [13:13];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram110 [12:12];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram18 [11:11];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram16 [10:10];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram14 [9:9];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram12 [8:8];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram016 [7:7];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram014 [6:6];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram012 [5:5];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram010 [4:4];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram08 [3:3];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram06 [2:2];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram04 [1:1];
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram02 [0:0];
+    END_BUS_BLOCK;
+END_ADDRESS_SPACE;

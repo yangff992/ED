@@ -1,0 +1,84 @@
+// BMM LOC annotation file.
+//
+// Release 14.1 -  P.49d, build 2.8 Mar 16, 2012
+// Copyright (c) 1995-2018 Xilinx, Inc.  All rights reserved.
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Address space 'lm32_wrpc_memory' 0x00000000:0x0001FFFF (128 KBytes).
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_SPACE lm32_wrpc_memory RAMB16 [0x00000000:0x0001FFFF]
+    BUS_BLOCK
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram315 RAMB16 [31:31] [0:16383] PLACED = X0Y76;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram313 RAMB16 [30:30] [0:16383] PLACED = X1Y78;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram311 RAMB16 [29:29] [0:16383] PLACED = X1Y82;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram39 RAMB16 [28:28] [0:16383] PLACED = X2Y74;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram37 RAMB16 [27:27] [0:16383] PLACED = X2Y70;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram35 RAMB16 [26:26] [0:16383] PLACED = X3Y72;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram33 RAMB16 [25:25] [0:16383] PLACED = X1Y72;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram31 RAMB16 [24:24] [0:16383] PLACED = X3Y78;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram215 RAMB16 [23:23] [0:16383] PLACED = X3Y84;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram213 RAMB16 [22:22] [0:16383] PLACED = X0Y84;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram211 RAMB16 [21:21] [0:16383] PLACED = X3Y76;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram29 RAMB16 [20:20] [0:16383] PLACED = X2Y76;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram27 RAMB16 [19:19] [0:16383] PLACED = X0Y68;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram25 RAMB16 [18:18] [0:16383] PLACED = X2Y66;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram23 RAMB16 [17:17] [0:16383] PLACED = X3Y70;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram21 RAMB16 [16:16] [0:16383] PLACED = X3Y80;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram115 RAMB16 [15:15] [0:16383] PLACED = X4Y86;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram113 RAMB16 [14:14] [0:16383] PLACED = X1Y90;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram111 RAMB16 [13:13] [0:16383] PLACED = X0Y92;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram19 RAMB16 [12:12] [0:16383] PLACED = X1Y92;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram17 RAMB16 [11:11] [0:16383] PLACED = X3Y66;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram15 RAMB16 [10:10] [0:16383] PLACED = X5Y64;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram13 RAMB16 [9:9] [0:16383] PLACED = X4Y80;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram11 RAMB16 [8:8] [0:16383] PLACED = X0Y72;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram015 RAMB16 [7:7] [0:16383] PLACED = X0Y82;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram013 RAMB16 [6:6] [0:16383] PLACED = X0Y90;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram011 RAMB16 [5:5] [0:16383] PLACED = X1Y86;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram09 RAMB16 [4:4] [0:16383] PLACED = X4Y90;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram07 RAMB16 [3:3] [0:16383] PLACED = X5Y66;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram05 RAMB16 [2:2] [0:16383] PLACED = X5Y70;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram03 RAMB16 [1:1] [0:16383] PLACED = X0Y66;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram01 RAMB16 [0:0] [0:16383] PLACED = X4Y72;
+    END_BUS_BLOCK;
+
+    BUS_BLOCK
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram316 RAMB16 [31:31] [16384:32767] PLACED = X0Y78;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram314 RAMB16 [30:30] [16384:32767] PLACED = X1Y80;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram312 RAMB16 [29:29] [16384:32767] PLACED = X1Y84;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram310 RAMB16 [28:28] [16384:32767] PLACED = X1Y74;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram38 RAMB16 [27:27] [16384:32767] PLACED = X2Y68;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram36 RAMB16 [26:26] [16384:32767] PLACED = X3Y74;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram34 RAMB16 [25:25] [16384:32767] PLACED = X1Y70;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram32 RAMB16 [24:24] [16384:32767] PLACED = X2Y78;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram216 RAMB16 [23:23] [16384:32767] PLACED = X4Y84;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram214 RAMB16 [22:22] [16384:32767] PLACED = X3Y86;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram212 RAMB16 [21:21] [16384:32767] PLACED = X0Y74;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram210 RAMB16 [20:20] [16384:32767] PLACED = X1Y76;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram28 RAMB16 [19:19] [16384:32767] PLACED = X0Y70;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram26 RAMB16 [18:18] [16384:32767] PLACED = X1Y68;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram24 RAMB16 [17:17] [16384:32767] PLACED = X4Y70;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram22 RAMB16 [16:16] [16384:32767] PLACED = X3Y82;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram116 RAMB16 [15:15] [16384:32767] PLACED = X4Y82;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram114 RAMB16 [14:14] [16384:32767] PLACED = X1Y88;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram112 RAMB16 [13:13] [16384:32767] PLACED = X0Y94;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram110 RAMB16 [12:12] [16384:32767] PLACED = X1Y94;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram18 RAMB16 [11:11] [16384:32767] PLACED = X3Y68;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram16 RAMB16 [10:10] [16384:32767] PLACED = X4Y64;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram14 RAMB16 [9:9] [16384:32767] PLACED = X4Y78;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram12 RAMB16 [8:8] [16384:32767] PLACED = X2Y72;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram016 RAMB16 [7:7] [16384:32767] PLACED = X0Y80;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram014 RAMB16 [6:6] [16384:32767] PLACED = X0Y88;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram012 RAMB16 [5:5] [16384:32767] PLACED = X0Y86;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram010 RAMB16 [4:4] [16384:32767] PLACED = X4Y88;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram08 RAMB16 [3:3] [16384:32767] PLACED = X4Y66;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram06 RAMB16 [2:2] [16384:32767] PLACED = X5Y68;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram04 RAMB16 [1:1] [16384:32767] PLACED = X0Y64;
+        cute_core/u_wrpc_sfp0.u_wr_core/cmp_xwrc_board_cute/cmp_board_common/cmp_xwr_core/WRPC/DPRAM/U_DPRAM/gen_splitram.U_RAM_SPLIT/Mram_ram02 RAMB16 [0:0] [16384:32767] PLACED = X4Y68;
+    END_BUS_BLOCK;
+END_ADDRESS_SPACE;
+
